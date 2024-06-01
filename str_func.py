@@ -5,5 +5,7 @@ def upper_line(line):
     return line.upper()
 
 def title_line(line):
-    pass
-    
+    """
+    Возвращает строку с заглавными первыми буквами каждого слова в строке
+    """
+    return line.title()
